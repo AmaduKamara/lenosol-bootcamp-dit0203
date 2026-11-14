@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admissions & Apply | Lenosol Coding Bootcamp</title>
+  <link rel="stylesheet" href="css/admissions.css" />
+</head>
+<body>
+  <!-- Sticky Navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Lenosol <span>Bootcamp</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="mentors.html">Mentors</a></li>
+          <li><a href="admissions.html" class="active">Admissions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section 1: Header -->
+  <section class="adm-header">
+    <div class="container">
+      <h1>Admissions & Enrollment</h1>
+      <p>No prior coding degree required—just curiosity, grit, and commitment to building great software.</p>
+    </div>
+  </section>
+
+  <!-- Section 2: 4-Step Enrollment Process -->
+  <section class="steps-section">
+    <div class="container">
+      <h2>How to Join Lenosol Bootcamp</h2>
+      <div class="steps-grid">
+        <div class="step-box">
+          <span class="step-num">01</span>
+          <h3>Submit Application</h3>
+          <p>Complete the online enrollment form below with your background and learning goals.</p>
+        </div>
+        <div class="step-box">
+          <span class="step-num">02</span>
+          <h3>Logic Assessment</h3>
+          <p>Take a short, beginner-friendly problem-solving and computer literacy check.</p>
+        </div>
+        <div class="step-box">
+          <span class="step-num">03</span>
+          <h3>Admissions Chat</h3>
+          <p>Meet with an advisor to choose the right schedule and discuss tuition plans.</p>
+        </div>
+        <div class="step-box">
+          <span class="step-num">04</span>
+          <h3>Pre-Work Kickoff</h3>
+          <p>Set up your laptop, Git environment, and VS Code before Day 1 orientation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Student Application Form -->
+  <section class="apply-section">
+    <div class="container apply-wrapper">
+      <form class="apply-form" action="#" method="post">
+        <h2>Cohort Application Form</h2>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" placeholder="e.g. Mariama Conteh" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone / WhatsApp Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+232 76 000 000" required />
+          </div>
+          <div class="form-group">
+            <label for="track">Preferred Track</label>
+            <select id="track" name="track">
+              <option value="fullstack">Full-Stack Web Development (16 Weeks)</option>
+              <option value="frontend">Frontend & UI Engineering (12 Weeks)</option>
+              <option value="backend">Backend APIs & Cloud Systems (12 Weeks)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="motivation">Why do you want to learn software engineering?</label>
+          <textarea id="motivation" name="motivation" rows="4" placeholder="Tell us about your career goals and what you hope to build..." required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit Application</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Section 4: Tuition & Scholarships -->
+  <section class="tuition-section">
+    <div class="container">
+      <h2>Flexible Tuition & Scholarship Options</h2>
+      <div class="tuition-grid">
+        <div class="tuition-card">
+          <h3>Installment Payment Plan</h3>
+          <p>Split your tuition into 3 interest-free monthly installments over the duration of your bootcamp cohort.</p>
+        </div>
+        <div class="tuition-card">
+          <h3>Women in Tech & Merit Grants</h3>
+          <p>Partial scholarships covering up to 40% of tuition are awarded each cohort to high-potential applicants.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Lenosol Coding Bootcamp. Next cohort orientation begins the first Monday of next month.</p>
+    </div>
+  </footer>
+</body>
+</html>
