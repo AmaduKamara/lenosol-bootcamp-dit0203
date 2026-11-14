@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lenosol Coding Bootcamp | Build Your Tech Career</title>
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+  <!-- Sticky Navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Lenosol <span>Bootcamp</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="mentors.html">Mentors</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section 1: Hero Carousel Slider (3 Slides) -->
+  <section class="hero-carousel">
+    <div class="slides-container" id="slidesContainer">
+      <!-- Slide 1 -->
+      <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80');">
+        <div class="slide-overlay">
+          <div class="container slide-content">
+            <span class="badge">Cohort 2026 Now Enrolling</span>
+            <h1>Launch Your Career in Full-Stack Software Engineering</h1>
+            <p>Master modern JavaScript, React, Node.js, and Git workflows through intensive, hands-on project building.</p>
+            <div class="hero-btns">
+              <a href="admissions.html" class="btn btn-primary">Apply Now</a>
+              <a href="courses.html" class="btn btn-outline">Explore Curriculum</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1600&q=80');">
+        <div class="slide-overlay">
+          <div class="container slide-content">
+            <span class="badge">Real-World Collaboration</span>
+            <h1>Code Together with Industry Mentors</h1>
+            <p>Learn agile team development, pull requests, code reviews, and production deployment from practicing engineers.</p>
+            <div class="hero-btns">
+              <a href="mentors.html" class="btn btn-primary">Meet Instructors</a>
+              <a href="contact.html" class="btn btn-outline">Book Campus Visit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1600&q=80');">
+        <div class="slide-overlay">
+          <div class="container slide-content">
+            <span class="badge">Portfolio-First Learning</span>
+            <h1>Graduate with Production-Ready Applications</h1>
+            <p>Build 6+ full-stack applications from scratch and showcase your GitHub contributions to top tech employers.</p>
+            <div class="hero-btns">
+              <a href="courses.html" class="btn btn-primary">View Tracks</a>
+              <a href="admissions.html" class="btn btn-outline">Scholarship Info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel Controls -->
+    <button class="carousel-btn prev" id="prevBtn" aria-label="Previous Slide">&#10094;</button>
+    <button class="carousel-btn next" id="nextBtn" aria-label="Next Slide">&#10095;</button>
+    <div class="carousel-dots" id="carouselDots">
+      <span class="dot active" data-index="0"></span>
+      <span class="dot" data-index="1"></span>
+      <span class="dot" data-index="2"></span>
+    </div>
+  </section>
+
+  <!-- Section 2: Featured Bootcamp Tracks -->
+  <section class="tracks section-padding">
+    <div class="container">
+      <div class="section-header">
+        <h2>Core Engineering Tracks</h2>
+        <p>Structured pathways designed to take you from beginner to job-ready developer.</p>
+      </div>
+      <div class="track-grid">
+        <article class="track-card">
+          <div class="track-tag">16 Weeks • Full-Time</div>
+          <h3>Full-Stack Web Development</h3>
+          <p>HTML5, CSS3, Modern JavaScript, React, Next.js, Node.js, Express, and PostgreSQL database architecture.</p>
+          <a href="courses.html" class="card-link">View Syllabus &rarr;</a>
+        </article>
+        <article class="track-card">
+          <div class="track-tag">12 Weeks • Evening</div>
+          <h3>Frontend & UI Engineering</h3>
+          <p>Responsive web design, Tailwind CSS, interactive DOM engineering, React state management, and accessibility.</p>
+          <a href="courses.html" class="card-link">View Syllabus &rarr;</a>
+        </article>
+        <article class="track-card">
+          <div class="track-tag">12 Weeks • Weekend</div>
+          <h3>Backend APIs & Cloud Systems</h3>
+          <p>RESTful API design, authentication, Prisma ORM, Docker containerization, and VPS Linux deployments.</p>
+          <a href="courses.html" class="card-link">View Syllabus &rarr;</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Why Lenosol Bootcamp -->
+  <section class="highlights section-padding">
+    <div class="container">
+      <div class="section-header">
+        <h2>Why Learn at Lenosol?</h2>
+        <p>Practical engineering discipline built around real software workflows.</p>
+      </div>
+      <div class="pillars-grid">
+        <div class="pillar-box">
+          <div class="pillar-icon">💻</div>
+          <h3>80% Hands-On Coding</h3>
+          <p>Every concept is immediately reinforced through daily coding labs, pair programming, and sprint demos.</p>
+        </div>
+        <div class="pillar-box">
+          <div class="pillar-icon">🌿</div>
+          <h3>Git & GitHub Mastery</h3>
+          <p>Work in feature branches, resolve merge conflicts, and review peer code just like a real engineering team.</p>
+        </div>
+        <div class="pillar-box">
+          <div class="pillar-icon">🚀</div>
+          <h3>Career & Capstone Support</h3>
+          <p>Receive personalized resume reviews, mock technical interviews, and direct introductions to hiring partners.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Alumni Success Stories -->
+  <section class="testimonials section-padding">
+    <div class="container">
+      <div class="section-header">
+        <h2>Alumni Success Stories</h2>
+      </div>
+      <div class="testimonial-grid">
+        <blockquote class="testimonial-card">
+          <p>"Before Lenosol Coding Bootcamp, I struggled to connect frontend designs to real databases. Within four months, I deployed my first full-stack app and landed a junior developer role."</p>
+          <cite>— Abdulai T., Full-Stack Developer</cite>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <p>"Learning Git branching and collaborating on team repositories gave me massive confidence during technical interviews. The instructors genuinely care about your growth."</p>
+          <cite>— Fatmata S., Frontend Engineer</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Lenosol Coding Bootcamp. Empowering the Next Generation of Software Engineers.</p>
+      <p>Freetown Innovation Hub | Admissions: admissions@lenosolbootcamp.com</p>
+    </div>
+  </footer>
+
+  <!-- Minimal Carousel Script -->
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    let currentSlide = 0;
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+        dots[i].classList.toggle('active', i === index);
+      });
+      currentSlide = index;
+    }
+
+    nextBtn.addEventListener('click', () => {
+      showSlide((currentSlide + 1) % slides.length);
+    });
+
+    prevBtn.addEventListener('click', () => {
+      showSlide((currentSlide - 1 + slides.length) % slides.length);
+    });
+
+    dots.forEach(dot => {
+      dot.addEventListener('click', () => {
+        showSlide(Number(dot.dataset.index));
+      });
+    });
+
+    setInterval(() => {
+      showSlide((currentSlide + 1) % slides.length);
+    }, 6000);
+  </script>
+</body>
+</html>
