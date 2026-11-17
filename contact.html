@@ -1,108 +1,143 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Contact & Campus | Lenosol Coding Bootcamp</title>
-<link rel="stylesheet" href="css/contact.css" />
-</head>
-<body>
-<!-- Sticky Navbar -->
-<header class="navbar">
-<div class="container nav-container">
-<a href="index.html" class="logo">Lenosol <span>Bootcamp</span></a>
-<nav>
-<ul class="nav-links">
-<li><a href="index.html">Home</a></li>
-<li><a href="courses.html">Courses</a></li>
-<li><a href="mentors.html">Mentors</a></li>
-<li><a href="admissions.html">Admissions</a></li>
-<li><a href="contact.html" class="active">Contact</a></li>
-</ul>
-</nav>
-</div>
-</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact & Campus | Lenosol Coding Bootcamp</title>
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <!-- Sticky Navbar -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">Lenosol <span>Bootcamp</span></a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="mentors.html">Mentors</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<!-- Section 1: Contact Banner -->
-<section class="contact-banner">
-<div class="container">
-<h1>Visit Our Campus & Connect</h1>
-<p>Have questions about course schedules, corporate tech training, or student sponsorships? Reach out anytime.</p>
-</div>
-</section>
+    <!-- Section 1: Contact Banner -->
+    <section class="contact-banner">
+      <div class="container">
+        <h1>Visit Our Campus & Connect</h1>
+        <p>
+          Have questions about course schedules, corporate tech training, or
+          student sponsorships? Reach out anytime.
+        </p>
+      </div>
+    </section>
 
-<!-- Section 2: Campus Info Cards -->
-<section class="info-cards-section">
-<div class="container info-grid">
-<div class="info-card">
-<h3>📍 Campus Location</h3>
-<p>Lenosol Tech Hub, Wellington</p>
-<p>Freetown, Sierra Leone</p>
-</div>
-<div class="info-card">
-<h3>📞 Admissions Desk</h3>
-<p>Phone: +232 76 555 019</p>
-<p>Email: amaduskamara@gmail.com</p>
-</div>
-<div class="info-card">
-<h3>🕒 Lab & Study Hours</h3>
-<p>Mon – Fri: 8:30 AM – 7:00 PM</p>
-<p>Saturday: 9:00 AM – 4:00 PM</p>
-</div>
-</div>
-</section>
+    <!-- Section 2: Campus Info Cards -->
+    <section class="info-cards-section">
+      <div class="container info-grid">
+        <div class="info-card">
+          <h3>📍 Campus Location</h3>
+          <p>Lenosol Tech Hub, Wellington</p>
+          <p>Freetown, Sierra Leone</p>
+        </div>
+        <div class="info-card">
+          <h3>📞 Admissions Desk</h3>
+          <p>Phone: +232 76 555 019</p>
+          <p>Email: amaduskamara@gmail.com</p>
+        </div>
+        <div class="info-card">
+          <h3>🕒 Lab & Study Hours</h3>
+          <p>Mon – Fri: 8:30 AM – 7:00 PM</p>
+          <p>Saturday: 9:00 AM – 4:00 PM</p>
+        </div>
+      </div>
+    </section>
 
-<!-- Section 3: Direct Message Form -->
-<section class="message-section">
-<div class="container message-grid">
-<div class="form-container">
-<h2>Send Us a Message</h2>
-<form action="#" method="post">
-<div class="input-group">
-<label for="name">Full Name</label>
-<input type="text" id="name" name="name" placeholder="Enter your full name" required />
-</div>
-<div class="input-group">
-<label for="email">Email Address</label>
-<input type="email" id="email" name="email" placeholder="you@example.com" required />
-</div>
-<div class="input-group">
-<label for="subject">Inquiry Topic</label>
-<input type="text" id="subject" name="subject" placeholder="Bootcamp Admissions, Hire Graduates, Workshop" required />
-</div>
-<div class="input-group">
-<label for="message">Message</label>
-<textarea id="message" name="message" rows="5" placeholder="Write your inquiry here..." required></textarea>
-</div>
-<button type="submit" class="btn-send">Send Message</button>
-</form>
-</div>
+    <!-- Section 3: Direct Message Form -->
+    <section class="message-section">
+      <div class="container message-grid">
+        <div class="form-container">
+          <h2>Send Us a Message</h2>
+          <form action="https://formspree.io/f/mwloovpp" method="POST">
+            <div class="input-group">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="you@example.com"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <label for="subject">Inquiry Topic</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Bootcamp Admissions, Hire Graduates, Workshop"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Write your inquiry here..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-send">Send Message</button>
+          </form>
+        </div>
 
-<!-- Section 4: Campus Facilities & Map Card -->
-<div class="location-box">
-<h2>Campus Facilities</h2>
-<p>Our training labs are equipped with high-speed fiber internet, backup solar power, and collaborative whiteboard zones.</p>
-<div class="map-placeholder">
-<div class="map-pin">
-<strong>Lenosol Coding Campus</strong>
-<span>Wellington Tech Corridor, Freetown</span>
-<small>Open for campus tours Monday – Friday</small>
-</div>
-</div>
-<div class="facility-notes">
-<h4>Student Workspace Access</h4>
-<p>Enrolled students enjoy full access to quiet coding pods and high-speed Wi-Fi outside scheduled lecture hours.</p>
-</div>
-</div>
-</div>
-</section>
+        <!-- Section 4: Campus Facilities & Map Card -->
+        <div class="location-box">
+          <h2>Campus Facilities</h2>
+          <p>
+            Our training labs are equipped with high-speed fiber internet,
+            backup solar power, and collaborative whiteboard zones.
+          </p>
+          <div class="map-placeholder">
+            <div class="map-pin">
+              <strong>Lenosol Coding Campus</strong>
+              <span>Wellington Tech Corridor, Freetown</span>
+              <small>Open for campus tours Monday – Friday</small>
+            </div>
+          </div>
+          <div class="facility-notes">
+            <h4>Student Workspace Access</h4>
+            <p>
+              Enrolled students enjoy full access to quiet coding pods and
+              high-speed Wi-Fi outside scheduled lecture hours.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- Footer -->
-<footer class="footer">
-<div class="container">
-<p>&copy; 2026 Lenosol Coding Bootcamp. Built by students, mentored by engineers.</p>
-</div>
-</footer>
-</body>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2026 Lenosol Coding Bootcamp. Built by students, mentored by
+          engineers.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
